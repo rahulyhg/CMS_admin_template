@@ -71,37 +71,41 @@
             <li><a href="index.html">Dashboard</a></li>
             <li class="active">Users</li>
           </ol>
-          <table class="table table-striped">
-            <tr>
-              <th><input type="checkbox"></th>
-              <th>Full Name</th>
-              <th>Email</th>
-              <th>Group</th>
-            </tr>
-            <tr>
-              <td><input type="checkbox"></td>
-              <td><a href="user.html">John Doe</a></td>
-              <td>jdoe@gmail.com</td>
-              <td>Admin</td>
-            </tr>
-            <tr>
-              <td><input type="checkbox"></td>
-              <td><a href="user.html">Brad Traversy</a></td>
-              <td>jdoe@gmail.com</td>
-              <td>Registered</td>
-            </tr>
-            <tr>
-              <td><input type="checkbox"></td>
-              <td><a href="user.html">James Smith</a></td>
-              <td>jdoe@gmail.com</td>
-              <td>Registered</td>
-            </tr>
-            <tr>
-              <td><input type="checkbox"></td>
-              <td><a href="user.html">Lisa Gibbons</a></td>
-              <td>jdoe@gmail.com</td>
-              <td>Registered</td>
-            </tr>
+          <table id="sort-table" class="table table-striped tablesorter">
+            <thead>
+              <tr>
+                <th><input type="checkbox"></th>
+                <th>Full Name <i class="glyphicon glyphicon-chevron-down"></th>
+                <th>Email <i class="glyphicon glyphicon-chevron-down"></th>
+                <th>Group <i class="glyphicon glyphicon-chevron-down"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="checkbox"></td>
+                <td><a href="user.html">John Doe</a></td>
+                <td>jdoe@gmail.com</td>
+                <td>Admin</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox"></td>
+                <td><a href="user.html">Brad Traversy</a></td>
+                <td>jdoe@gmail.com</td>
+                <td>Registered</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox"></td>
+                <td><a href="user.html">James Smith</a></td>
+                <td>jdoe@gmail.com</td>
+                <td>Registered</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox"></td>
+                <td><a href="user.html">Lisa Gibbons</a></td>
+                <td>jdoe@gmail.com</td>
+                <td>Registered</td>
+              </tr>
+            </tbody>
           </table>
 
           <nav>
@@ -138,6 +142,7 @@
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.tablesorter.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

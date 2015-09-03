@@ -71,23 +71,27 @@
             <li><a href="index.html">Dashboard</a></li>
             <li class="active">Categories</li>
           </ol>
-          <table class="table table-striped">
-            <tr>
-              <th><input type="checkbox"></th>
-              <th>Category Title</th>
-            </tr>
-            <tr>
-              <td><input type="checkbox"></td>
-              <td><a href="category.html">Category 1</a></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox"></td>
-              <td><a href="category.html">Category 2</a></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox"></td>
-              <td><a href="category.html">Category 3</a></td>
-            </tr>
+          <table id="sort-table" class="table table-striped tablesorter">
+            <thead>
+              <tr>
+                <th><input type="checkbox"></th>
+                <th>Category Title <i class="glyphicon glyphicon-chevron-down"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="checkbox"></td>
+                <td><a href="category.html">Category 1</a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox"></td>
+                <td><a href="category.html">Category 2</a></td>
+              </tr>
+              <tr>
+                <td><input type="checkbox"></td>
+                <td><a href="category.html">Category 3</a></td>
+              </tr>
+            </tbody>
           </table>
 
           <nav>
@@ -124,6 +128,7 @@
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.tablesorter.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
