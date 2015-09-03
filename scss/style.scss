@@ -1,5 +1,7 @@
 @import 'vendors/_bootstrap.min.scss';
 
+$primary-color: #1F87C2;
+
 .navbar{
 	border-radius: 0;
 }
@@ -7,7 +9,7 @@
 #login{
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: #1F87C2;
+	background-color: $primary-color;
 	color: #FFF;
 
 	h2{
@@ -54,4 +56,13 @@
 		border-top-left-radius: 0;
 		border-top-right-radius: 0;
 	}
+}
+
+footer{
+	margin-top: 30px;
+	padding-top: 20px;
+	text-align: center;
+	background-color: $primary-color;
+	color: #FFF;
+	height: 60px;
 }

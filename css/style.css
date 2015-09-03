@@ -5791,3 +5791,11 @@ button.close {
     margin-bottom: 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
+
+footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: #1F87C2;
+  color: #FFF;
+  height: 60px; }
