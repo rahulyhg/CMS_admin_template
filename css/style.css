@@ -5792,6 +5792,10 @@ button.close {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
 
+.actions {
+  float: right;
+  margin-top: 20px; }
+
 footer {
   margin-top: 30px;
   padding-top: 20px;
