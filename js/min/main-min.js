@@ -1,1 +1,1 @@
-$(function(){$("#sort-table").tablesorter({sortList:[[0,0],[1,0]]})});
+$(function(){$("#sort-table").tablesorter({sortList:[[0,0],[1,0]]})});var $rows=$("table tr");$(".search-form").keyup(function(){var r=$.trim($(this).val()).replace(/ +/g," ").toLowerCase();$rows.show().filter(function(){var t=$(this).text().replace(/\s+/g," ").toLowerCase();return!~t.indexOf(r)}).hide()});
